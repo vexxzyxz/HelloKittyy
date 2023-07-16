@@ -1,21 +1,27 @@
 /**
- * @name Dark Matter
- * @author Tropical#8908, Hammock#3110
- * @version 3.0.0
- * @description A cold, dark & frosty theme.
- * @source https://github.com/DiscordStyles/DarkMatter/
+ * @name hello kitty v.1
+ * @author Артём Гидров
+ * @version auto updates
+ * @description Theme was created in generator https://vsthemes.org/generator/
+ * @source https://vsthemes.org/en/skins/discord/51041-hellou-kitti.html
+ * @authorLink https://vsthemes.org/user/%D0%90%D1%80%D1%82%D1%91%D0%BC+%D0%93%D0%B8%D0%B4%D1%80%D0%BE%D0%B2/
+ * @authorId 104131
 */
-
-@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
-
-/* Variables */
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
 :root {
-    --avatar-size: 32px;
-    --background-image: url('https://i.imgur.com/7SbtKvw.png');
-    --home-image: url('https://i.imgur.com/233d55Y.gif');
-    --background-solid: #161921;
-    --background-solid-dark: #101218;
-    --background-solid-darker: #0c0e12;
-    --accent: 37, 172, 232;
-    --accent-alt: 29, 101, 134;
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.3;
+    --messagetransparency: 0.15;
+    --guildchanneltransparency: 0.4;
+    --memberlistransparency: 0;
+    --accentcolor: 150,24,145;
+    --background: url("https://vsthemes.org/uploads/posts/2022-04/1649521832_-kitti-oboi-na-rabochij-stol-10.webp");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
 }
